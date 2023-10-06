@@ -25,7 +25,7 @@ const CountriesSegmentation = () => {
     </li>
     </ul>
     <img
-    src="img/ds3/ds3_data_table.png"
+    src="react_porto/img/ds3/ds3_data_table.png"
     alt="Data Variables"
     style={{objectFit: 'contain', width: '100%'}}
     class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -35,7 +35,7 @@ const CountriesSegmentation = () => {
     variables as shown below
     </p>
     <img
-    src="img/ds3/statistical_summary.png"
+    src="react_porto/img/ds3/statistical_summary.png"
     alt="Data Variables"
     style={{objectFit: 'contain', width: '100%'}}
     class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -49,7 +49,7 @@ const CountriesSegmentation = () => {
     the result is plotted.
     </p>
     <img
-    src="img/ds3/elbow method.png"
+    src="react_porto/img/ds3/elbow method.png"
     alt="Dashboard Prototype"
     style={{objectFit: 'contain', width: '100%'}}
     class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -61,7 +61,7 @@ const CountriesSegmentation = () => {
     </p>
     <p>The K value of 3 is selected based on the Elbow Method.</p>
     <img
-    src="img/ds3/clustering_result.png"
+    src="react_porto/img/ds3/clustering_result.png"
     alt="Dashboard Prototype"
     style={{objectFit: 'contain', width: '100%'}}
     class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -81,7 +81,7 @@ const CountriesSegmentation = () => {
     </ul>
     <p>
     Checkout the source code on
-    <a href="https://github.com/giovanniabel/dsprojects"
+     <a href="https://github.com/giovanniabel/dsprojects"
         >Github</a
     >
     </p>

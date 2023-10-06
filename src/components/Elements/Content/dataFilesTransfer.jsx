@@ -13,7 +13,7 @@ const DataFilesTransfer = (props) => {
                     automation of data file transfer can be made.
                   </p>
                   <img
-                    src="img/data_eng1/database.png "
+                    src="react_porto/img/data_eng1/database.png "
                     alt="Weekly Data Aggregation"
                     style={{objectFit: 'contain', width: '100%'}}
                     className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -32,7 +32,7 @@ const DataFilesTransfer = (props) => {
                     Drive is utilized to download the files.
                   </p>
                   <img
-                    src="img/data_eng1/flat_files.png"
+                    src="react_porto/img/data_eng1/flat_files.png"
                     alt="Weekly Data Aggregation"
                     style={{objectFit: 'contain', width: '100%'}}
                     className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -49,7 +49,7 @@ const DataFilesTransfer = (props) => {
                     table feature.
                   </p>
                   <img
-                    src="img/data_eng1/google_sheets.png"
+                    src="react_porto/img/data_eng1/google_sheets.png"
                     alt="Weekly Data Aggregation"
                     style={{objectFit: 'contain', width: '100%'}}
                     className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"

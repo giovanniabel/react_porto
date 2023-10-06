@@ -16,7 +16,7 @@ const ExcelToDatabase = (props) => {
                     <li>Database: PostgresSQL</li>
                   </ul>
                   <img
-                    src="img/excel_to_database/fastapi_diagram.png "
+                    src="react_porto/img/excel_to_database/fastapi_diagram.png "
                     alt="FastAPI Diagram"
                     style={{objectFit: 'contain', width: '100%'}}
                     className="rounded mx-auto d-block"

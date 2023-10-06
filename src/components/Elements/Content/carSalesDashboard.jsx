@@ -19,7 +19,7 @@ const CarSalesDashboard = (props) => {
                     <li>Sales Information Detail</li>
                   </ul>
                   <img
-                    src="img/bi1/sales_summary.png "
+                    src="react_porto/img/bi1/sales_summary.png "
                     alt="Weekly Data Aggregation"
                     style={{objectFit: 'contain', width: '100%'}}
                     className="rounded mx-auto d-block"
@@ -49,7 +49,7 @@ const CarSalesDashboard = (props) => {
                     <li>Showroom Branches Forecasting</li>
                   </ul>
                   <img
-                    src="img/bi1/data_exploration.png"
+                    src="react_porto/img/bi1/data_exploration.png"
                     alt="Weekly Data Aggregation"
                     style={{objectFit: 'contain', width: '80%'}}
                     className="rounded mx-auto d-block mt-3"

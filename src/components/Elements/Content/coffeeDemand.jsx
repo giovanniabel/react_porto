@@ -55,7 +55,7 @@ const CoffeeDemand = () => {
         </li>
       </ul>
       <img
-        src="img/ds2/ds2_process_flow.png "
+        src="react_porto/img/ds2/ds2_process_flow.png "
         alt="Process Flow"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -71,7 +71,7 @@ const CoffeeDemand = () => {
         '1/6/2021' to '30/31/2020'
       </p>
       <img
-        src="img/ds2/data_variables.png"
+        src="react_porto/img/ds2/data_variables.png"
         alt="Data Variables"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -93,7 +93,7 @@ const CoffeeDemand = () => {
           enforced social restrictions
         </li>
         <img
-          src="img/ds2/ds2_data_observation.png"
+          src="react_porto/img/ds2/ds2_data_observation.png"
           alt="Process Flow"
           style={{objectFit: 'contain', width: '100%'}}
           className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -102,33 +102,33 @@ const CoffeeDemand = () => {
           Time series decomposition (trend and monthly seasonality)
         </li>
         <img
-          src="img/ds2/ts_decomposition.png "
+          src="react_porto/img/ds2/ts_decomposition.png "
           alt="Time Series Decomposition"
           style={{objectFit: 'contain', width: '100%'}}
           className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
         />
         <img
-          src="img/ds2/Weekly Seasonal.png"
+          src="react_porto/img/ds2/Weekly Seasonal.png"
           alt="Weekly Seasonal"
           style={{objectFit: 'contain', width: '100%'}}
           className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
         />
         <img
-          src="img/ds2/Monthly_Seasonal.png"
+          src="react_porto/img/ds2/Monthly_Seasonal.png"
           alt="Monthly Seasonal"
           style={{objectFit: 'contain', width: '100%'}}
           className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
         />
         <li>Day vs average demand</li>
         <img
-          src="img/ds2/average_daily_demand.png"
+          src="react_porto/img/ds2/average_daily_demand.png"
           alt="Average Daily Demand"
           style={{objectFit: 'contain', width: '100%'}}
           className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
         />
         <li>Rain intensity vs average demand</li>
         <img
-          src="img/ds2/average_rain_condition.png"
+          src="react_porto/img/ds2/average_rain_condition.png"
           alt="Average Rain Condition"
           style={{objectFit: 'contain', width: '100%'}}
           className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -141,7 +141,7 @@ const CoffeeDemand = () => {
           previous table
         </li>
         <img
-          src="img/ds2/d2_error_measurements.png "
+          src="react_porto/img/ds2/d2_error_measurements.png "
           alt="Forecast Result"
           style={{objectFit: 'contain', width: '100%'}}
           className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -160,7 +160,7 @@ const CoffeeDemand = () => {
       <div className="row">
         <div className="col">
           <img
-            src="img/ds2/pred_date_var.png"
+            src="react_porto/img/ds2/pred_date_var.png"
             alt="FARIMA Result"
             style={{objectFit: 'contain', width: '100%'}}
             className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -168,7 +168,7 @@ const CoffeeDemand = () => {
         </div>
         <div className="col">
           <img
-            src="img/ds2/pred_all_var.png"
+            src="react_porto/img/ds2/pred_all_var.png"
             alt="ANN-MLP Result"
             style={{objectFit: 'contain', width: '100%'}}
             className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -193,7 +193,7 @@ const CoffeeDemand = () => {
         future value of coffee beans demand.
       </p>
       <img
-        src="img/ds2/ds2_dashboard.png"
+        src="react_porto/img/ds2/ds2_dashboard.png"
         alt="Dashboard Prototype"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -210,7 +210,7 @@ const CoffeeDemand = () => {
         the company's income and expenses.
       </p>
       <img
-        src="img/ds2/fifo.png"
+        src="react_porto/img/ds2/fifo.png"
         alt="Dashboard Prototype"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
