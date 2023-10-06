@@ -31,7 +31,7 @@ const Jumbotron = () => {
     return (
         <section className="jumbotron text-center">
                         <img
-                        src="react_porto/img/1656345570288.jpg"
+                        src="img/1656345570288.jpg"
                         alt="Giovanni Abel"
                         width="200"
                         className="rounded-circle img-thumbnail"
