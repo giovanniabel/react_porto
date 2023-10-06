@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 import Button from '../components/Elements/Button';
 import DataFilesTransfer from '../components/Elements/Content/dataFilesTransfer';
 import NetworkBandwidth from '../components/Elements/Content/networkBandwidth';

@@ -4,8 +4,8 @@ const Navbar = (props) => {
       className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top"
     >
       <div className="container">
-        <a className="navbar-brand" style={{ pointerEvents: 'none' }}
-          >Giovanni Abel Christian</a
+        <i className="navbar-brand" style={{ pointerEvents: 'none', fontStyle: 'normal' }}
+          >Giovanni Abel Christian</i
         >
         <button
           className="navbar-toggler"
