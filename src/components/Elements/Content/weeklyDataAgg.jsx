@@ -21,7 +21,7 @@ const WeeklyDataAgg = (props) => {
         </li>
       </ul>
       <img
-        src="react_porto/img/data_eng2/table_aggregation.png "
+        src="img/data_eng2/table_aggregation.png "
         alt="Weekly Data Aggregation"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -48,7 +48,7 @@ const WeeklyDataAgg = (props) => {
         output is depicted on the table below.
       </p>
       <img
-        src="react_porto/img/data_eng2/final_output.png"
+        src="img/data_eng2/final_output.png"
         alt="Weekly Data Aggregation"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"

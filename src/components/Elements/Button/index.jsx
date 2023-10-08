@@ -1,7 +1,7 @@
 const Button = (props) => {
     // const {children, classname = "bg-black", onClick = () => {}, type = "button"} = props;
     return(
-        <a href="/react_porto#projects" style={{textDecoration: 'none'}}>
+        <a href="/#projects" style={{textDecoration: 'none'}}>
                 <button className="mx-auto d-block button mb-5 mt-5">
                 <span className="buttontext fs-6">See other projects</span>
                 </button>

@@ -11,7 +11,7 @@ const SentenceEmotion = () => {
         </p>
         <h3>Methodology</h3>
         <img
-        src="react_porto/img/ds4/ds4_flow_diagram.jpg"
+        src="img/ds4/ds4_flow_diagram.jpg"
         alt="Flow Diagram"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100% mb-4;"
@@ -39,13 +39,13 @@ const SentenceEmotion = () => {
         label proportoin within the dataset as shown below
         </p>
         <img
-        src="react_porto/img/ds4/ds4_dataset.png"
+        src="img/ds4/ds4_dataset.png"
         alt="Data Variables"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
         />
         <img
-        src="react_porto/img/ds4/proporsi_label.png"
+        src="img/ds4/proporsi_label.png"
         alt="Data Proportion"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -101,14 +101,14 @@ const SentenceEmotion = () => {
         <ul>
         <li>Bag-of-Words</li>
         <img
-            src="react_porto/img/ds4/bag_of_words.png"
+            src="img/ds4/bag_of_words.png"
             alt="Bag of Words"
             style={{objectFit: 'contain', width: '100%'}}
             className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
         />
         <li>TF-IDF</li>
         <img
-            src="react_porto/img/ds4/tf_idf.png"
+            src="img/ds4/tf_idf.png"
             alt="TF IDF"
             style={{objectFit: 'contain', width: '100%'}}
             className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -122,7 +122,7 @@ const SentenceEmotion = () => {
         <div className="row">
         <div className="col">
             <img
-            src="react_porto/img/ds4/result_bow.png"
+            src="img/ds4/result_bow.png"
             alt="Dashboard Prototype"
             style={{objectFit: 'contain', width: '100%'}}
             className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -130,7 +130,7 @@ const SentenceEmotion = () => {
         </div>
         <div className="col">
             <img
-            src="react_porto/img/ds4/result_tfidf.png"
+            src="img/ds4/result_tfidf.png"
             alt="Dashboard Prototype"
             style={{objectFit: 'contain', width: '100%'}}
             className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
@@ -138,7 +138,7 @@ const SentenceEmotion = () => {
         </div>
         </div>
         <img
-        src="react_porto/img/ds4/mnb_model_comparison.png"
+        src="img/ds4/mnb_model_comparison.png"
         alt="model metrics"
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
