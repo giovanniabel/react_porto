@@ -49,6 +49,10 @@ const router = createBrowserRouter([
     path: "/project_excel_to_database",
     element: <ProjectPage path = "/project_excel_to_database"/>
   },
+  {
+    path: "/project_f1_dashboard",
+    element: <ProjectPage path = "/project_f1_dashboard"/>
+  },
 ]);
 
 

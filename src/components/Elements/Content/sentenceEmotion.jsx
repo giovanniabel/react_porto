@@ -16,7 +16,7 @@ const SentenceEmotion = () => {
         style={{objectFit: 'contain', width: '100%'}}
         className="rounded mx-auto d-block w-75 gambar_alur max-width: 100% mb-4;"
         />
-        <p>
+        <p className = 'mt-3'>
         The data firstly pre-processed using regex, word steming and
         stop words. Then, the bag-of-words and TF-IDF were created
         as the input for the model. There were 2 models created
@@ -41,14 +41,14 @@ const SentenceEmotion = () => {
         <img
         src="img/ds4/ds4_dataset.png"
         alt="Data Variables"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '40%'}}
+        className="rounded mx-auto d-block w-75 gambar_alur;"
         />
         <img
         src="img/ds4/proporsi_label.png"
         alt="Data Proportion"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '50%'}}
+        className="rounded mx-auto d-block w-75 gambar_alur"
         />
         <p>
         There are 6 emotions contained in the dataset, which are:
@@ -103,14 +103,14 @@ const SentenceEmotion = () => {
         <img
             src="img/ds4/bag_of_words.png"
             alt="Bag of Words"
-            style={{objectFit: 'contain', width: '100%'}}
-            className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+            style={{objectFit: 'contain', maxWidth: '50%'}}
+            className="rounded mx-auto d-block w-75 gambar_alur;"
         />
         <li>TF-IDF</li>
         <img
             src="img/ds4/tf_idf.png"
             alt="TF IDF"
-            style={{objectFit: 'contain', width: '100%'}}
+            style={{objectFit: 'contain', maxWidth: '100%'}}
             className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
         />
         </ul>
@@ -140,8 +140,8 @@ const SentenceEmotion = () => {
         <img
         src="img/ds4/mnb_model_comparison.png"
         alt="model metrics"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '50%'}}
+        className="rounded mx-auto d-block w-75 gambar_alur mt-3"
         />
         Based on the multinomial NB text classification, it is
         concluded that: <br />
@@ -161,7 +161,7 @@ const SentenceEmotion = () => {
         </li>
         </ul>
         <p>
-        Checkout the source code on
+        Checkout the source code on&nbsp;
         <a href="https://github.com/giovanniabel/sent_emot_det"
             >Github</a
         >

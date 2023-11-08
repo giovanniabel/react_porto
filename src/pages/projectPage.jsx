@@ -9,6 +9,7 @@ import WholesalerTransaction from '../components/Elements/Content/wholesalerTran
 import CountriesSegmentation from '../components/Elements/Content/countriesSegmentation';
 import SentenceEmotion from '../components/Elements/Content/sentenceEmotion';
 import ExcelToDatabase from '../components/Elements/Content/excelToDatabase';
+import F1Dashboard from '../components/Elements/Content/f1Dashboard';
 
 const projects = [
     {
@@ -54,6 +55,10 @@ const projects = [
     {
         path: "/project_excel_to_database",
         element: <ExcelToDatabase/>
+    },
+    {
+        path: "/project_f1_dashboard",
+        element: <F1Dashboard/>
     }
 ]
 

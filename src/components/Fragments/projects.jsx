@@ -26,6 +26,14 @@ const ProjectSection = () => {
 
   const productData = [
     {
+      refpage : "project_f1_dashboard",
+      imgsource : "img/projects/png/ferrari_sf75.png",
+      title  : 'F1 2022 Dashboard',
+      filter : 'grayscale(50%)',
+      content : "Dashboard Summarizing the Formula One Championship 2022 Season",
+      hashtag : '# Data Visualization | Metabase '
+    },
+    {
       refpage : "/project_excel_to_database",
       imgsource : "img/projects/png/mika-baumeister-Wpnoqo2plFA-unsplash.png",
       title  : 'Excel to Database',

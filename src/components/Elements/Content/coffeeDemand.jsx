@@ -143,8 +143,8 @@ const CoffeeDemand = () => {
         <img
           src="img/ds2/d2_error_measurements.png "
           alt="Forecast Result"
-          style={{objectFit: 'contain', width: '100%'}}
-          className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+          style={{objectFit: 'contain', maxWidth: '50%'}}
+          className="rounded mx-auto d-block w-75 gambar_alur mb-2"
         />
         <p>
           MLR model using all variables achieved the lowest MAPE
