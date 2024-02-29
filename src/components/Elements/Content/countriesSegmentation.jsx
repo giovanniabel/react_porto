@@ -27,8 +27,8 @@ const CountriesSegmentation = () => {
     <img
     src="img/ds3/ds3_data_table.png"
     alt="Data Variables"
-    style={{objectFit: 'contain', width: '100%'}}
-    class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+    style={{objectFit: 'contain'}}
+    class="rounded mx-auto d-block gambar_alur max-width: 100%;"
     />
     <p>
     It is essential to discover the statistical summary of the
@@ -37,7 +37,7 @@ const CountriesSegmentation = () => {
     <img
     src="img/ds3/statistical_summary.png"
     alt="Data Variables"
-    style={{objectFit: 'contain', width: '100%'}}
+    style={{objectFit: 'contain'}}
     class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
     />
     <h3>Model Training</h3>
@@ -51,7 +51,7 @@ const CountriesSegmentation = () => {
     <img
     src="img/ds3/elbow method.png"
     alt="Dashboard Prototype"
-    style={{objectFit: 'contain', width: '100%'}}
+    style={{objectFit: 'contain', width: '100px'}}
     class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
     />
     <p>
