@@ -38,7 +38,7 @@ const HomePage = () => {
               <AboutSection/>
               <ProjectSection/>
               <br />
-              <p className="text-center">Copyright © 2023 Giovanni Abel Christian</p>
+              <p className="text-center">Copyright © 2024 Giovanni Abel Christian</p>
               <br />
             </div>
             <script src="script.js"></script>

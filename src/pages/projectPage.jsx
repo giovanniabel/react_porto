@@ -86,7 +86,7 @@ const ProjectPage = (props) => {
       </section>
 
               <br />
-              <p className="text-center">Copyright © 2023 Giovanni Abel Christian</p>
+              <p className="text-center">Copyright © 2024 Giovanni Abel Christian</p>
               <br />
             </div>
         

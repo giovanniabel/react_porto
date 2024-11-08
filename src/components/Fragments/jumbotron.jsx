@@ -38,7 +38,7 @@ const Jumbotron = () => {
                         />
                         <h1 className="display-4 lineRight">Giovanni Abel Christian</h1>
                         <p className="lead lineLeft">
-                        Data Engineer | Data Scientist | BI Developer
+                        Data Scientist | Data Engineer
                         </p>
                         <hr className="mx-auto" style={{ width: '600px' }} />
                         <div className="row">
