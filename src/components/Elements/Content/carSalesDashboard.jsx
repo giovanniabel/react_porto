@@ -21,7 +21,7 @@ const CarSalesDashboard = (props) => {
                   <img
                     src="img/bi1/sales_summary.png "
                     alt="Weekly Data Aggregation"
-                    style={{objectFit: 'contain', width: '100%'}}
+                    style={{objectFit: 'contain', maxWidth: '80%'}}
                     className="rounded mx-auto d-block"
                   />
                   <p style={{fontStyle: 'italic', fontSize: '10px'}}>

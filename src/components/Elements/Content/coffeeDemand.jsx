@@ -34,8 +34,7 @@ const CoffeeDemand = () => {
       <ul>
         <li>
           Data Collection: Gathering internal data (coffee demand)
-          from POS System and external &emsp; &emsp; &emsp; &emsp;
-          &emsp; &emsp;data (Weather, holiday, etc)
+          from POS System and external data (Weather, holiday, etc)
         </li>
         <li>
           Data Pre-processing: Transform transaction data to coffee
@@ -73,8 +72,8 @@ const CoffeeDemand = () => {
       <img
         src="img/ds2/data_variables.png"
         alt="Data Variables"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '45%'}}
+        className="rounded mx-auto d-block w-75 gambar_alur;"
       />
       <p>
         The dependent or variable is the coffee beans demand in
@@ -95,8 +94,8 @@ const CoffeeDemand = () => {
         <img
           src="img/ds2/ds2_data_observation.png"
           alt="Process Flow"
-          style={{objectFit: 'contain', width: '100%'}}
-          className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+          style={{objectFit: 'contain', maxWidth: '70%'}}
+          className="rounded mx-auto d-block w-75;"
         />
         <li>
           Time series decomposition (trend and monthly seasonality)
@@ -104,34 +103,34 @@ const CoffeeDemand = () => {
         <img
           src="img/ds2/ts_decomposition.png "
           alt="Time Series Decomposition"
-          style={{objectFit: 'contain', width: '100%'}}
-          className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+          style={{objectFit: 'contain', maxWidth: '80%'}}
+          className="rounded mx-auto d-block w-75;"
         />
         <img
           src="img/ds2/Weekly Seasonal.png"
           alt="Weekly Seasonal"
-          style={{objectFit: 'contain', width: '100%'}}
-          className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+          style={{objectFit: 'contain', maxWidth: '60%'}}
+          className="rounded mx-auto d-block w-75;"
         />
         <img
           src="img/ds2/Monthly_Seasonal.png"
           alt="Monthly Seasonal"
-          style={{objectFit: 'contain', width: '100%'}}
-          className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+          style={{objectFit: 'contain', maxWidth: '60%'}}
+          className="rounded mx-auto d-block w-75;"
         />
         <li>Day vs average demand</li>
         <img
           src="img/ds2/average_daily_demand.png"
           alt="Average Daily Demand"
-          style={{objectFit: 'contain', width: '100%'}}
-          className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+          style={{objectFit: 'contain', maxWidth: '60%'}}
+          className="rounded mx-auto d-block w-75;"
         />
         <li>Rain intensity vs average demand</li>
         <img
           src="img/ds2/average_rain_condition.png"
           alt="Average Rain Condition"
-          style={{objectFit: 'contain', width: '100%'}}
-          className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+          style={{objectFit: 'contain', maxWidth: '60%'}}
+          className="rounded mx-auto d-block w-75;"
         />
         <h3>Forecasting Result</h3>
         <p>The models were trained with two different datasets:</p>
@@ -143,8 +142,8 @@ const CoffeeDemand = () => {
         <img
           src="img/ds2/d2_error_measurements.png "
           alt="Forecast Result"
-          style={{objectFit: 'contain', maxWidth: '50%'}}
-          className="rounded mx-auto d-block w-75 gambar_alur mb-2"
+          style={{objectFit: 'contain', maxWidth: '45%'}}
+          className="rounded mx-auto d-block w-75 mb-2"
         />
         <p>
           MLR model using all variables achieved the lowest MAPE
@@ -162,16 +161,16 @@ const CoffeeDemand = () => {
           <img
             src="img/ds2/pred_date_var.png"
             alt="FARIMA Result"
-            style={{objectFit: 'contain', width: '100%'}}
-            className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+            style={{objectFit: 'contain', maxWidth: '100%'}}
+            className="rounded mx-auto d-block w-75;"
           />
         </div>
         <div className="col">
           <img
             src="img/ds2/pred_all_var.png"
             alt="ANN-MLP Result"
-            style={{objectFit: 'contain', width: '100%'}}
-            className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+            style={{objectFit: 'contain', maxWidth: '100%'}}
+            className="rounded mx-auto d-block w-75;"
           />
         </div>
       </div>
@@ -195,8 +194,8 @@ const CoffeeDemand = () => {
       <img
         src="img/ds2/ds2_dashboard.png"
         alt="Dashboard Prototype"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+          style={{objectFit: 'contain', maxWidth: '60%'}}
+          className="rounded mx-auto d-block w-75;"
       />
       <p>
         The displayed predicted value was based on the prediction
@@ -212,8 +211,8 @@ const CoffeeDemand = () => {
       <img
         src="img/ds2/fifo.png"
         alt="Dashboard Prototype"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '80%'}}
+        className="rounded mx-auto d-block w-75;"
       />
       <p>
         The total price shown is an estimate of the costs that need

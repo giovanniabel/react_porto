@@ -14,8 +14,8 @@ const WholesalerTransaction = (props) => {
       <img
         src="img/data_eng3/table_aggregation2.png "
         alt="Weekly Data Aggregation"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '60%'}}
+        className="rounded mx-auto d-block w-75;"
       />
       <p className="mt-2">
         The Purchase and Sales reports consist of transaction
@@ -26,8 +26,8 @@ const WholesalerTransaction = (props) => {
       <img
         src="img/data_eng3/sales_purchase_report.png"
         alt="Weekly Data Aggregation"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '60%'}}
+        className="rounded mx-auto d-block w-75;"
       />
       <p className="mt-2">
         The aggregated table serves as the basis in calculating the
@@ -38,15 +38,15 @@ const WholesalerTransaction = (props) => {
       <img
         src="img/data_eng3/margin_report.png"
         alt="Weekly Data Aggregation"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '60%'}}
+        className="rounded mx-auto d-block w-75;"
       />
       <p className="mt-2">Inventory table:</p>
       <img
         src="img/data_eng3/inventory_report.png"
         alt="Weekly Data Aggregation"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '60%'}}
+        className="rounded mx-auto d-block w-75;"
       />
                         </>
 

@@ -13,8 +13,8 @@ const SentenceEmotion = () => {
         <img
         src="img/ds4/ds4_flow_diagram.jpg"
         alt="Flow Diagram"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100% mb-4;"
+        style={{objectFit: 'contain', maxWidth: '50%'}}
+        className="rounded mx-auto d-block w-75 mb-4;"
         />
         <p className = 'mt-3'>
         The data firstly pre-processed using regex, word steming and
@@ -110,8 +110,8 @@ const SentenceEmotion = () => {
         <img
             src="img/ds4/tf_idf.png"
             alt="TF IDF"
-            style={{objectFit: 'contain', maxWidth: '100%'}}
-            className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+            style={{objectFit: 'contain', maxWidth: '80%'}}
+            className="rounded mx-auto d-block w-75;"
         />
         </ul>
         <h3>Model Training</h3>
@@ -140,7 +140,7 @@ const SentenceEmotion = () => {
         <img
         src="img/ds4/mnb_model_comparison.png"
         alt="model metrics"
-        style={{objectFit: 'contain', maxWidth: '50%'}}
+        style={{objectFit: 'contain', maxWidth: '40%'}}
         className="rounded mx-auto d-block w-75 gambar_alur mt-3"
         />
         Based on the multinomial NB text classification, it is

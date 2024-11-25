@@ -15,8 +15,8 @@ const DataFilesTransfer = (props) => {
                   <img
                     src="img/data_eng1/database.png "
                     alt="Weekly Data Aggregation"
-                    style={{objectFit: 'contain', width: '100%'}}
-                    className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+                    style={{objectFit: 'contain', maxWidth: '70%'}}
+                    className="rounded mx-auto d-block w-75;"
                   />
                   <p className="mt-2">
                     The image above shows that the extracted query result from
@@ -34,8 +34,8 @@ const DataFilesTransfer = (props) => {
                   <img
                     src="img/data_eng1/flat_files.png"
                     alt="Weekly Data Aggregation"
-                    style={{objectFit: 'contain', width: '100%'}}
-                    className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+                    style={{objectFit: 'contain', maxWidth: '70%'}}
+                    className="rounded mx-auto d-block w-75;"
                   />
                   <p className="mt-2">
                     After extracting the files, there are some transformations
@@ -51,8 +51,8 @@ const DataFilesTransfer = (props) => {
                   <img
                     src="img/data_eng1/google_sheets.png"
                     alt="Weekly Data Aggregation"
-                    style={{objectFit: 'contain', width: '100%'}}
-                    className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+                    style={{objectFit: 'contain', maxWidth: '60%'}}
+                    className="rounded mx-auto d-block w-75;"
                   />
                   <p className="mt-2">
                     Since the streamed external table could not be altered,

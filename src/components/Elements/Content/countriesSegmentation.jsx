@@ -1,9 +1,9 @@
 const CountriesSegmentation = () => {
     return (
       <>
-    <h1 class="d-title">Countries Segmentation</h1>
+    <h1 className="d-title">Countries Segmentation</h1>
     <hr />
-    <p class="mt-2">
+    <p className="mt-2">
     Data Source:
     <a
         href="https://www.kaggle.com/rohan0301/unsupervised-learning-on-country-data"
@@ -27,8 +27,8 @@ const CountriesSegmentation = () => {
     <img
     src="img/ds3/ds3_data_table.png"
     alt="Data Variables"
-    style={{objectFit: 'contain'}}
-    class="rounded mx-auto d-block gambar_alur max-width: 100%;"
+    style={{objectFit: 'contain', maxWidth:'100%'}}
+    className="rounded mx-auto d-block w-75;"
     />
     <p>
     It is essential to discover the statistical summary of the
@@ -37,8 +37,8 @@ const CountriesSegmentation = () => {
     <img
     src="img/ds3/statistical_summary.png"
     alt="Data Variables"
-    style={{objectFit: 'contain'}}
-    class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+    style={{objectFit: 'contain', maxWidth:'70%'}}
+    className="rounded mx-auto d-block w-75;"
     />
     <h3>Model Training</h3>
     <p>
@@ -50,9 +50,9 @@ const CountriesSegmentation = () => {
     </p>
     <img
     src="img/ds3/elbow method.png"
-    alt="Dashboard Prototype"
-    style={{objectFit: 'contain', width: '100px'}}
-    class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+    alt="Elbow Method"
+    style={{objectFit: 'contain', maxWidth: '80%'}}
+    className="rounded mx-auto d-block w-75;"
     />
     <p>
     By using the plotted result of different K value, the best K
@@ -63,8 +63,8 @@ const CountriesSegmentation = () => {
     <img
     src="img/ds3/clustering_result.png"
     alt="Dashboard Prototype"
-    style={{objectFit: 'contain', width: '100%'}}
-    class="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+    style={{objectFit: 'contain', maxWidth:'90%'}}
+    className="rounded mx-auto d-block w-75;"
     />
     <p>Clustering Description</p>
     <ul>
@@ -80,7 +80,7 @@ const CountriesSegmentation = () => {
     </li>
     </ul>
     <p>
-    Checkout the source code on
+    Checkout the source code on &nbsp;
      <a href="https://github.com/giovanniabel/dsprojects"
         >Github</a
     >

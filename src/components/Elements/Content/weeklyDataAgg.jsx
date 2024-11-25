@@ -23,8 +23,8 @@ const WeeklyDataAgg = (props) => {
       <img
         src="img/data_eng2/table_aggregation.png "
         alt="Weekly Data Aggregation"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '60%'}}
+        className="rounded mx-auto d-block w-75;"
       />
       <p className="mt-2">
         Firstly, the Order Table and Store Info Table are joined
@@ -50,8 +50,8 @@ const WeeklyDataAgg = (props) => {
       <img
         src="img/data_eng2/final_output.png"
         alt="Weekly Data Aggregation"
-        style={{objectFit: 'contain', width: '100%'}}
-        className="rounded mx-auto d-block w-75 gambar_alur max-width: 100%;"
+        style={{objectFit: 'contain', maxWidth: '60%'}}
+        className="rounded mx-auto d-block w-75;"
       />
       <p style={{fontStyle: 'italic', fontSize: '10px'}}>
         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;*The values

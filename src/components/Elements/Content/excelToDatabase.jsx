@@ -18,7 +18,7 @@ const ExcelToDatabase = (props) => {
                   <img
                     src="img/excel_to_database/fastapi_diagram.png "
                     alt="FastAPI Diagram"
-                    style={{objectFit: 'contain', width: '100%'}}
+                    style={{objectFit: 'contain', maxWidth: '80%'}}
                     className="rounded mx-auto d-block"
                   />
                   <p className="mt-2">
