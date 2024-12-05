@@ -162,7 +162,7 @@ const SentenceEmotion = () => {
         </ul>
         <p>
         Checkout the source code on&nbsp;
-        <a href="https://github.com/giovanniabel/sent_emot_det"
+        <a href="https://github.com/giovanniabel/sentence_emot_det"
             >Github</a
         >
         </p>
